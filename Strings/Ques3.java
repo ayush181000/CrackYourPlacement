@@ -21,5 +21,7 @@ class Solution {
                     break;
             }
         }
+
+        // return haystack.indexOf(needle);
     }
 }
