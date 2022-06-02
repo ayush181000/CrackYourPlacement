@@ -1,9 +1,5 @@
 public class Ques2 {
 
-}
-
-class Solution {
-
     public String addBinary(String a, String b) {
         int carry = 0;
         StringBuilder ans = new StringBuilder();

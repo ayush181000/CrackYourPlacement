@@ -1,9 +1,5 @@
 public class Ques3 {
 
-}
-
-class Solution {
-
     public int maximumProduct(int[] nums) {
         int max1 = Integer.MIN_VALUE;
         int max2 = Integer.MIN_VALUE;

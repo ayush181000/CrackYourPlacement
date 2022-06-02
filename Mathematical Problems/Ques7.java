@@ -1,9 +1,5 @@
 public class Ques7 {
 
-}
-
-class Solution {
-
     public int missingNumber(int[] nums) {
         int sum = 0;
         int n = nums.length;
