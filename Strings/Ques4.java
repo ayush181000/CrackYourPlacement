@@ -1,4 +1,3 @@
-package Strings;
 
 class Solution {
     public static String longestCommonPrefix(String[] strs) {

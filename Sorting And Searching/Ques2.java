@@ -1,13 +1,9 @@
-public class Ques2 {
-
-}
-
 class Main {
-    /*
-     * Function to get index of
-     * ceiling of x in arr[low..high]
-     */
-    static int ceilSearch(int arr[], int low, int high, int x)
+	/*
+	 * Function to get index of
+	 * ceiling of x in arr[low..high]
+	 */
+	static int ceilSearch(int arr[], int low, int high, int x)
 	{
 	// base condition if length of arr == 0 then return -1
 	if(n == 0){
@@ -44,14 +40,14 @@ class Main {
 				
 	
 	/* Driver program to check above functions */
-    public static void main(String[] args) {
-        int arr[] = { 1, 2, 8, 10, 10, 12, 19 };
-        int n = arr.length;
-        int x = 8;
-        int index = ceilSearch(arr, 0, n - 1, x);
-        if (index == -1)
-            System.out.println("Ceiling of " + x + " doesn't exist in array");
-        else
-            System.out.println("ceiling of " + x + " is " + arr[index]);
-    }
+	public static void main(String[] args) {
+		int arr[] = { 1, 2, 8, 10, 10, 12, 19 };
+		int n = arr.length;
+		int x = 8;
+		int index = ceilSearch(arr, 0, n - 1, x);
+		if (index == -1)
+			System.out.println("Ceiling of " + x + " doesn't exist in array");
+		else
+			System.out.println("ceiling of " + x + " is " + arr[index]);
+	}
 }

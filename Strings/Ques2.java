@@ -1,4 +1,3 @@
-package Strings;
 
 // Java program to count all duplicates
 // from string using maps
