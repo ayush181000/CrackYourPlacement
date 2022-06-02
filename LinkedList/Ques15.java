@@ -1,18 +1,20 @@
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
 class Solution {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        if (l1 == null) return l2;
-        if (l2 == null) return l1;
+        if (l1 == null)
+            return l2;
+        if (l2 == null)
+            return l1;
 
         l1 = reverse(l1);
         l2 = reverse(l2);
@@ -21,7 +23,8 @@ class Solution {
     }
 
     private ListNode reverse(ListNode head) {
-        if (head == null) return head;
+        if (head == null)
+            return head;
         ListNode prev = null, current = head, follow = head.next;
         while (current != null) {
             current.next = prev;

@@ -1,4 +1,3 @@
-package LinkedList;
 
 // Java program to Multiply two numbers
 
