@@ -1,10 +1,11 @@
 {
   "java.project.sourcePaths": [
-    "LinkedList",
-    "Sorting And Searching",
-    "Arrays",
-    "Stack&Queue",
     "Strings",
-    "Mathematical Problems"
+    "Stack&Queue",
+    "Sorting And Searching",
+    "Mathematical Problems",
+    "LinkedList",
+    "Arrays",
+    ""
   ]
 }
