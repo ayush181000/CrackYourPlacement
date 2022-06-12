@@ -1,5 +1,3 @@
-package Arrays;
-
 public class Ques22 {
 
 }
